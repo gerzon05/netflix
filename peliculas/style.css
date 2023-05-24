@@ -1,0 +1,1411 @@
+body{
+    margin: 0;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.principal{
+    background-color: black;
+}
+.principal .portada{
+    position: relative;
+}
+.principal .portada img{
+    width: 100%;
+    height: 100%;
+}
+@media (max-width: 349.98px){
+    .principal .iconos{
+        display: flex;
+        position: fixed;
+        bottom: 0%;
+        background: black;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        color: white;
+        padding: 4% 0;
+        z-index: 100;
+    }
+    .principal .iconos p{
+        margin: 0;
+        font-size: 13px;
+    }
+    .principal .portada .parte1{
+        position: absolute;
+        display: flex;
+        top: 8%;
+        left: 4%;
+        right: 4%;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .principal .portada .parte1 > div{
+        width: 6%;
+    }
+    .principal .portada .parte2{
+        display: flex;
+        position: absolute;
+        top: 15%;
+        width: 100%;
+        justify-content: center;
+    }
+    .principal .portada .parte2 ul{
+        list-style: none;
+        display: flex;
+        color: white;
+        gap: 47px;
+        font-size: 10px;
+        padding: 0;
+    }
+    .principal .portada .parte2 li select{
+        background: transparent;
+        border: 0;
+        color: white;
+        font-size: 10px;
+    }
+    .principal .portada .parte2 li select option{
+        background: red;
+    }
+    .principal .portada .parte3{
+        position: absolute;
+        width: 100%;
+        top: 90%;
+        text-align: center;
+        color: white;
+        font-size: 15px;
+    }
+    /* opciones */
+    .principal .opciones{
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        gap: 25px;
+        align-items: center;
+        text-align: center;
+    }
+    .principal .opciones .uno{
+        font-size: 21px;
+    }
+    .principal .opciones .uno p{
+        font-size: 10px;
+    }
+    .principal .opciones .dos{
+        border-radius: 3px;
+        background: white;
+        color: black;
+        padding: 1%;
+        font-size: 13px;
+    }
+    .principal .opciones .dos img{
+        width: 16%;
+    }
+    .principal .opciones .tres{
+        font-size: 11px;
+    }
+    .principal .opciones p{
+        margin: 0;
+    }
+    /* fila 1 */
+    .principal .fila1 h3{
+        margin: 2% 0;
+        color: white;
+        font-size: 14px;
+    }
+    .principal .fila1 .contieneimagenes{
+        display: flex;
+        overflow: scroll;
+        gap: 10px;
+    }
+    .principal .fila1 .contieneimagenes img{
+        width: 28%;
+    }
+    .principal .fila2 h3{
+        margin: 2% 0;
+        color: white;
+        font-size: 14px;
+    }
+    .principal .fila2 .contieneimagenes{
+        display: flex;
+        overflow: scroll;
+        gap: 10px;
+    }
+    .principal .fila2 .contieneimagenes img{
+        width: 28%;
+    }
+    .principal .fila3 h3{
+        margin: 2% 0;
+        color: white;
+        font-size: 14px;
+    }
+    .principal .fila3 .contieneimagenes{
+        display: flex;
+        overflow: scroll;
+        gap: 10px;
+    }
+    .principal .fila3 .contieneimagenes img{
+        width: 43%;
+    }
+    .principal .fila4 h3{
+        margin: 2% 0;
+        color: white;
+        font-size: 14px;
+    }
+    .principal .fila4 .tendencias{
+        display: flex;
+        overflow: scroll;
+        gap: 10px;
+    }
+    .principal .fila4 .tendencias img{
+        width: 43%;
+    }
+    .ocupar{
+        padding: 10.6% 0;
+        background: black;
+    }
+}
+@media (min-width:350px) and (max-width: 399.98px){
+    .principal .iconos{
+        display: flex;
+        position: fixed;
+        bottom: 0%;
+        background: black;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        color: white;
+        padding: 4% 0;
+        z-index: 100;
+    }
+    .principal .iconos p{
+        margin: 0;
+        font-size: 13px;
+    }
+    .principal .portada .parte1{
+        position: absolute;
+        display: flex;
+        top: 8%;
+        left: 4%;
+        right: 4%;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .principal .portada .parte1 > div{
+        width: 6%;
+    }
+    .principal .portada .parte2{
+        display: flex;
+        position: absolute;
+        top: 15%;
+        width: 100%;
+        justify-content: center;
+    }
+    .principal .portada .parte2 ul{
+        list-style: none;
+        display: flex;
+        color: white;
+        gap: 47px;
+        font-size: 10px;
+        padding: 0;
+    }
+    .principal .portada .parte2 li select{
+        background: transparent;
+        border: 0;
+        color: white;
+        font-size: 10px;
+    }
+    .principal .portada .parte2 li select option{
+        background: red;
+    }
+    .principal .portada .parte3{
+        position: absolute;
+        width: 100%;
+        top: 90%;
+        text-align: center;
+        color: white;
+        font-size: 15px;
+    }
+    /* opciones */
+    .principal .opciones{
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        gap: 25px;
+        align-items: center;
+        text-align: center;
+    }
+    .principal .opciones .uno{
+        font-size: 30px;
+    }
+    .principal .opciones .uno p{
+        font-size: 12px;
+    }
+    .principal .opciones .dos{
+        border-radius: 3px;
+        background: white;
+        color: black;
+        padding: 1% 3%;
+        font-size: 13px;
+    }
+    .principal .opciones .dos img{
+        width: 16%;
+    }
+    .principal .opciones .tres{
+        font-size: 11px;
+    }
+    .principal .opciones p{
+        margin: 0;
+    }
+    /* fila 1 */
+    .principal .fila1 h3{
+        margin: 2% 0;
+        color: white;
+        font-size: 14px;
+    }
+    .principal .fila1 .contieneimagenes{
+        display: flex;
+        overflow: scroll;
+        gap: 10px;
+    }
+    .principal .fila1 .contieneimagenes img{
+        width: 33%;
+    }
+    .principal .fila2 h3{
+        margin: 2% 0;
+        color: white;
+        font-size: 14px;
+    }
+    .principal .fila2 .contieneimagenes{
+        display: flex;
+        overflow: scroll;
+        gap: 10px;
+    }
+    .principal .fila2 .contieneimagenes img{
+        width: 30%;
+    }
+    .principal .fila3 h3{
+        margin: 2% 0;
+        color: white;
+        font-size: 14px;
+    }
+    .principal .fila3 .contieneimagenes{
+        display: flex;
+        overflow: scroll;
+        gap: 10px;
+    }
+    .principal .fila3 .contieneimagenes img{
+        width: 43%;
+    }
+    .principal .fila4 h3{
+        margin: 2% 0;
+        color: white;
+        font-size: 14px;
+    }
+    .principal .fila4 .tendencias{
+        display: flex;
+        overflow: scroll;
+        gap: 10px;
+    }
+    .principal .fila4 .tendencias img{
+        width: 49%;
+    }
+    .ocupar{
+        padding: 9.6% 0;
+        background: black;
+    }
+}
+@media (min-width:400px) and (max-width: 449.98px){
+    .principal .iconos{
+        display: flex;
+        position: fixed;
+        bottom: 0%;
+        background: black;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        color: white;
+        padding: 4% 0;
+        z-index: 100;
+    }
+    .principal .iconos p{
+        margin: 0;
+        font-size: 13px;
+    }
+    .principal .portada .parte1{
+        position: absolute;
+        display: flex;
+        top: 8%;
+        left: 4%;
+        right: 4%;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .principal .portada .parte1 > div{
+        width: 6%;
+    }
+    .principal .portada .parte2{
+        display: flex;
+        position: absolute;
+        top: 15%;
+        width: 100%;
+        justify-content: center;
+    }
+    .principal .portada .parte2 ul{
+        list-style: none;
+        display: flex;
+        color: white;
+        gap: 47px;
+        font-size: 10px;
+        padding: 0;
+    }
+    .principal .portada .parte2 li select{
+        background: transparent;
+        border: 0;
+        color: white;
+        font-size: 10px;
+    }
+    .principal .portada .parte2 li select option{
+        background: red;
+    }
+    .principal .portada .parte3{
+        position: absolute;
+        width: 100%;
+        top: 90%;
+        text-align: center;
+        color: white;
+        font-size: 15px;
+    }
+    /* opciones */
+    .principal .opciones{
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        gap: 25px;
+        align-items: center;
+        text-align: center;
+    }
+    .principal .opciones .uno{
+        font-size: 30px;
+    }
+    .principal .opciones .uno p{
+        font-size: 12px;
+    }
+    .principal .opciones .dos{
+        border-radius: 3px;
+        background: white;
+        color: black;
+        padding: 1% 3%;
+        font-size: 13px;
+    }
+    .principal .opciones .dos img{
+        width: 16%;
+    }
+    .principal .opciones .tres{
+        font-size: 11px;
+    }
+    .principal .opciones p{
+        margin: 0;
+    }
+    /* fila 1 */
+    .principal .fila1 h3{
+        margin: 2% 0;
+        color: white;
+        font-size: 14px;
+    }
+    .principal .fila1 .contieneimagenes{
+        display: flex;
+        overflow: scroll;
+        gap: 10px;
+    }
+    .principal .fila1 .contieneimagenes img{
+        width: 29%;
+        height: 175px;
+    }
+    .principal .fila2 h3{
+        margin: 2% 0;
+        color: white;
+        font-size: 14px;
+    }
+    .principal .fila2 .contieneimagenes{
+        display: flex;
+        overflow: scroll;
+        gap: 10px;
+    }
+    .principal .fila2 .contieneimagenes img{
+        width: 30%;
+        height: 175px;
+    }
+    .principal .fila3 h3{
+        margin: 2% 0;
+        color: white;
+        font-size: 14px;
+    }
+    .principal .fila3 .contieneimagenes{
+        display: flex;
+        overflow: scroll;
+        gap: 10px;
+    }
+    .principal .fila3 .contieneimagenes img{
+        width: 73%;
+        height: 362px;
+    }
+    .principal .fila4 h3{
+        margin: 2% 0;
+        color: white;
+        font-size: 14px;
+    }
+    .principal .fila4 .tendencias{
+        display: flex;
+        overflow: scroll;
+        gap: 10px;
+    }
+    .principal .fila4 .tendencias img{
+        width: 45%;
+        height: 199px;
+    }
+    .ocupar{
+        padding: 9.6% 0;
+        background: black;
+    }
+}
+@media (min-width:450px) and (max-width: 499.98px) {
+    .principal .iconos{
+        display: flex;
+        position: fixed;
+        bottom: 0%;
+        background: black;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        color: white;
+        padding: 4% 0;
+        z-index: 100;
+    }
+    .principal .iconos p{
+        margin: 0;
+        font-size: 13px;
+    }
+    .principal .portada .parte1{
+        position: absolute;
+        display: flex;
+        top: 8%;
+        left: 4%;
+        right: 4%;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .principal .portada .parte1 > div{
+        width: 6%;
+    }
+    .principal .portada .parte2{
+        display: flex;
+        position: absolute;
+        top: 15%;
+        width: 100%;
+        justify-content: center;
+    }
+    .principal .portada .parte2 ul{
+        list-style: none;
+        display: flex;
+        color: white;
+        gap: 47px;
+        font-size: 10px;
+        padding: 0;
+    }
+    .principal .portada .parte2 li select{
+        background: transparent;
+        border: 0;
+        color: white;
+        font-size: 10px;
+    }
+    .principal .portada .parte2 li select option{
+        background: red;
+    }
+    .principal .portada .parte3{
+        position: absolute;
+        width: 100%;
+        top: 90%;
+        text-align: center;
+        color: white;
+        font-size: 15px;
+    }
+    /* opciones */
+    .principal .opciones{
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        gap: 25px;
+        align-items: center;
+        text-align: center;
+    }
+    .principal .opciones .uno{
+        font-size: 30px;
+    }
+    .principal .opciones .uno p{
+        font-size: 12px;
+    }
+    .principal .opciones .dos{
+        border-radius: 3px;
+        background: white;
+        color: black;
+        padding: 1% 3%;
+        font-size: 13px;
+    }
+    .principal .opciones .dos img{
+        width: 16%;
+    }
+    .principal .opciones .tres{
+        font-size: 11px;
+    }
+    .principal .opciones p{
+        margin: 0;
+    }
+    /* fila 1 */
+    .principal .fila1 h3{
+        margin: 2% 0;
+        color: white;
+        font-size: 14px;
+    }
+    .principal .fila1 .contieneimagenes{
+        display: flex;
+        overflow: scroll;
+        gap: 10px;
+    }
+    .principal .fila1 .contieneimagenes img{
+        width: 32%;
+        height: 190px;
+    }
+    .principal .fila2 h3{
+        margin: 2% 0;
+        color: white;
+        font-size: 14px;
+    }
+    .principal .fila2 .contieneimagenes{
+        display: flex;
+        overflow: scroll;
+        gap: 10px;
+    }
+    .principal .fila2 .contieneimagenes img{
+        width: 32%;
+        height: 190px;
+    }
+    .principal .fila3 h3{
+        margin: 2% 0;
+        color: white;
+        font-size: 14px;
+    }
+    .principal .fila3 .contieneimagenes{
+        display: flex;
+        overflow: scroll;
+        gap: 10px;
+    }
+    .principal .fila3 .contieneimagenes img{
+        width: 45%;
+        height: 400px;
+    }
+    .principal .fila4 h3{
+        margin: 2% 0;
+        color: white;
+        font-size: 14px;
+    }
+    .principal .fila4 .tendencias{
+        display: flex;
+        overflow: scroll;
+        gap: 10px;
+    }
+    .principal .fila4 .tendencias img{
+        width: 48%;
+        height: 215px;
+    }
+    .ocupar{
+        padding: 9.6% 0;
+        background: black;
+    }
+}
+@media (min-width:500px) and (max-width: 549.98px){
+    .principal .iconos{
+        display: flex;
+        position: fixed;
+        bottom: 0%;
+        background: black;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        color: white;
+        padding: 4% 0;
+        z-index: 100;
+    }
+    .principal .iconos p{
+        margin: 0;
+        font-size: 13px;
+    }
+    .principal .portada .parte1{
+        position: absolute;
+        display: flex;
+        top: 8%;
+        left: 4%;
+        right: 4%;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .principal .portada .parte1 > div{
+        width: 6%;
+    }
+    .principal .portada .parte2{
+        display: flex;
+        position: absolute;
+        top: 15%;
+        width: 100%;
+        justify-content: center;
+    }
+    .principal .portada .parte2 ul{
+        list-style: none;
+        display: flex;
+        color: white;
+        gap: 47px;
+        font-size: 20px;
+        padding: 0;
+    }
+    .principal .portada .parte2 li select{
+        background: transparent;
+        border: 0;
+        color: white;
+        font-size: 20px;
+    }
+    .principal .portada .parte2 li select option{
+        background: red;
+    }
+    .principal .portada .parte3{
+        position: absolute;
+        width: 100%;
+        top: 90%;
+        text-align: center;
+        color: white;
+        font-size: 23px;
+    }
+    /* opciones */
+    .principal .opciones{
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        gap: 25px;
+        align-items: center;
+        text-align: center;
+    }
+    .principal .opciones .uno{
+        font-size: 30px;
+    }
+    .principal .opciones .uno p{
+        font-size: 12px;
+    }
+    .principal .opciones .dos{
+        border-radius: 3px;
+        background: white;
+        color: black;
+        padding: 1% 3%;
+        font-size: 13px;
+    }
+    .principal .opciones .dos img{
+        width: 16%;
+    }
+    .principal .opciones .tres{
+        font-size: 11px;
+    }
+    .principal .opciones p{
+        margin: 0;
+    }
+    /* fila 1 */
+    .principal .fila1 h3{
+        margin: 2% 0;
+        color: white;
+        font-size: 25px;
+    }
+    .principal .fila1 .contieneimagenes{
+        display: flex;
+        overflow: scroll;
+        gap: 10px;
+    }
+    .principal .fila1 .contieneimagenes img{
+        width: 33%;
+        height: 255px;
+    }
+    .principal .fila2 h3{
+        margin: 2% 0;
+        color: white;
+        font-size: 21px;
+    }
+    .principal .fila2 .contieneimagenes{
+        display: flex;
+        overflow: scroll;
+        gap: 10px;
+    }
+    .principal .fila2 .contieneimagenes img{
+        width: 33%;
+        height: 255px;
+    }
+    .principal .fila3 h3{
+        margin: 2% 0;
+        color: white;
+        font-size: 25px;
+    }
+    .principal .fila3 .contieneimagenes{
+        display: flex;
+        overflow: scroll;
+        gap: 10px;
+    }
+    .principal .fila3 .contieneimagenes img{
+        width: 41%;
+        height: 470px;
+    }
+    .principal .fila4 h3{
+        margin: 2% 0;
+        color: white;
+        font-size: 14px;
+    }
+    .principal .fila4 .tendencias{
+        display: flex;
+        overflow: scroll;
+        gap: 10px;
+    }
+    .principal .fila4 .tendencias img{
+        width: 46%;
+        height: 255px;
+    }
+    .ocupar{
+        padding: 9.6% 0;
+        background: black;
+    }
+}
+@media (min-width:550px) and (max-width: 599.98px){
+    .principal .iconos{
+        display: flex;
+        position: fixed;
+        bottom: 0%;
+        background: black;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        color: white;
+        padding: 4% 0;
+        z-index: 100;
+    }
+    .principal .iconos p{
+        margin: 0;
+        font-size: 13px;
+    }
+    .principal .portada .parte1{
+        position: absolute;
+        display: flex;
+        top: 8%;
+        left: 4%;
+        right: 4%;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .principal .portada .parte1 > div{
+        width: 6%;
+    }
+    .principal .portada .parte2{
+        display: flex;
+        position: absolute;
+        top: 15%;
+        width: 100%;
+        justify-content: center;
+    }
+    .principal .portada .parte2 ul{
+        list-style: none;
+        display: flex;
+        color: white;
+        gap: 47px;
+        font-size: 20px;
+        padding: 0;
+    }
+    .principal .portada .parte2 li select{
+        background: transparent;
+        border: 0;
+        color: white;
+        font-size: 20px;
+    }
+    .principal .portada .parte2 li select option{
+        background: red;
+    }
+    .principal .portada .parte3{
+        position: absolute;
+        width: 100%;
+        top: 90%;
+        text-align: center;
+        color: white;
+        font-size: 23px;
+    }
+    /* opciones */
+    .principal .opciones{
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        gap: 25px;
+        align-items: center;
+        text-align: center;
+    }
+    .principal .opciones .uno{
+        font-size: 30px;
+    }
+    .principal .opciones .uno p{
+        font-size: 12px;
+    }
+    .principal .opciones .dos{
+        border-radius: 3px;
+        background: white;
+        color: black;
+        padding: 1% 3%;
+        font-size: 13px;
+    }
+    .principal .opciones .dos img{
+        width: 16%;
+    }
+    .principal .opciones .tres{
+        font-size: 11px;
+    }
+    .principal .opciones p{
+        margin: 0;
+    }
+    /* fila 1 */
+    .principal .fila1 h3{
+        margin: 2% 0;
+        color: white;
+        font-size: 27px;
+    }
+    .principal .fila1 .contieneimagenes{
+        display: flex;
+        overflow: scroll;
+        gap: 10px;
+    }
+    .principal .fila1 .contieneimagenes img{
+        width: 33%;
+        height: 255px;
+    }
+    .principal .fila2 h3{
+        margin: 2% 0;
+        color: white;
+        font-size: 21px;
+    }
+    .principal .fila2 .contieneimagenes{
+        display: flex;
+        overflow: scroll;
+        gap: 10px;
+    }
+    .principal .fila2 .contieneimagenes img{
+        width: 33%;
+        height: 255px;
+    }
+    .principal .fila3 h3{
+        margin: 2% 0;
+        color: white;
+        font-size: 25px;
+    }
+    .principal .fila3 .contieneimagenes{
+        display: flex;
+        overflow: scroll;
+        gap: 10px;
+    }
+    .principal .fila3 .contieneimagenes img{
+        width: 40%;
+        height: 445px;
+    }
+    .principal .fila4 h3{
+        margin: 2% 0;
+        color: white;
+        font-size: 14px;
+    }
+    .principal .fila4 .tendencias{
+        display: flex;
+        overflow: scroll;
+        gap: 10px;
+    }
+    .principal .fila4 .tendencias img{
+        width: 48%;
+        height: 265px;
+    }
+    .ocupar{
+        padding: 9.6% 0;
+        background: black;
+    }
+}
+@media (min-width:600px) and (max-width: 649.98px){
+    .principal .iconos{
+        display: flex;
+        position: fixed;
+        bottom: 0%;
+        background: black;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        color: white;
+        padding: 4% 0;
+        z-index: 100;
+    }
+    .principal .iconos p{
+        margin: 0;
+        font-size: 13px;
+    }
+    .principal .portada .parte1{
+        position: absolute;
+        display: flex;
+        top: 8%;
+        left: 4%;
+        right: 4%;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .principal .portada .parte1 > div{
+        width: 6%;
+    }
+    .principal .portada .parte2{
+        display: flex;
+        position: absolute;
+        top: 15%;
+        width: 100%;
+        justify-content: center;
+    }
+    .principal .portada .parte2 ul{
+        list-style: none;
+        display: flex;
+        color: white;
+        gap: 47px;
+        font-size: 20px;
+        padding: 0;
+    }
+    .principal .portada .parte2 li select{
+        background: transparent;
+        border: 0;
+        color: white;
+        font-size: 20px;
+    }
+    .principal .portada .parte2 li select option{
+        background: red;
+    }
+    .principal .portada .parte3{
+        position: absolute;
+        width: 100%;
+        top: 90%;
+        text-align: center;
+        color: white;
+        font-size: 23px;
+    }
+    /* opciones */
+    .principal .opciones{
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        gap: 25px;
+        align-items: center;
+        text-align: center;
+    }
+    .principal .opciones .uno{
+        font-size: 30px;
+    }
+    .principal .opciones .uno p{
+        font-size: 12px;
+    }
+    .principal .opciones .dos{
+        border-radius: 3px;
+        background: white;
+        color: black;
+        padding: 1% 4%;
+        font-size: 19px;
+    }
+    .principal .opciones .dos img{
+        width: 16%;
+    }
+    .principal .opciones .tres{
+        font-size: 11px;
+    }
+    .principal .opciones p{
+        margin: 0;
+        font-size: 16px;
+    }
+    /* fila 1 */
+    .principal .fila1 h3{
+        margin: 2% 0;
+        color: white;
+        font-size: 27px;
+    }
+    .principal .fila1 .contieneimagenes{
+        display: flex;
+        overflow: scroll;
+        gap: 10px;
+    }
+    .principal .fila1 .contieneimagenes img{
+        width: 33%;
+        height: 285px;
+    }
+    .principal .fila2 h3{
+        margin: 2% 0;
+        color: white;
+        font-size: 21px;
+    }
+    .principal .fila2 .contieneimagenes{
+        display: flex;
+        overflow: scroll;
+        gap: 10px;
+    }
+    .principal .fila2 .contieneimagenes img{
+        width: 33%;
+        height: 285px;
+    }
+    .principal .fila3 h3{
+        margin: 2% 0;
+        color: white;
+        font-size: 25px;
+    }
+    .principal .fila3 .contieneimagenes{
+        display: flex;
+        overflow: scroll;
+        gap: 10px;
+    }
+    .principal .fila3 .contieneimagenes img{
+        width: 41%;
+        height: 485px;
+    }
+    .principal .fila4 h3{
+        margin: 2% 0;
+        color: white;
+        font-size: 14px;
+    }
+    .principal .fila4 .tendencias{
+        display: flex;
+        overflow: scroll;
+        gap: 10px;
+    }
+    .principal .fila4 .tendencias img{
+        width: 48%;
+        height: 265px;
+    }
+    .ocupar{
+        padding: 9.6% 0;
+        background: black;
+    }
+}
+@media (min-width:650px) and (max-width: 699.98px){
+    .principal .iconos{
+        display: flex;
+        position: fixed;
+        bottom: 0%;
+        background: black;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        color: white;
+        padding: 4% 0;
+        z-index: 100;
+    }
+    .principal .iconos p{
+        margin: 0;
+        font-size: 13px;
+    }
+    .principal .portada .parte1{
+        position: absolute;
+        display: flex;
+        top: 8%;
+        left: 4%;
+        right: 4%;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .principal .portada .parte1 > div{
+        width: 6%;
+    }
+    .principal .portada .parte2{
+        display: flex;
+        position: absolute;
+        top: 15%;
+        width: 100%;
+        justify-content: center;
+    }
+    .principal .portada .parte2 ul{
+        list-style: none;
+        display: flex;
+        color: white;
+        gap: 47px;
+        font-size: 25px;
+        padding: 0;
+    }
+    .principal .portada .parte2 li select{
+        background: transparent;
+        border: 0;
+        color: white;
+        font-size: 25px;
+    }
+    .principal .portada .parte2 li select option{
+        background: red;
+    }
+    .principal .portada .parte3{
+        position: absolute;
+        width: 100%;
+        top: 90%;
+        text-align: center;
+        color: white;
+        font-size: 26px;
+    }
+    /* opciones */
+    .principal .opciones{
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        gap: 25px;
+        align-items: center;
+        text-align: center;
+    }
+    .principal .opciones .uno{
+        font-size: 30px;
+    }
+    .principal .opciones .uno p{
+        font-size: 12px;
+    }
+    .principal .opciones .dos{
+        border-radius: 3px;
+        background: white;
+        color: black;
+        padding: 1% 4%;
+        font-size: 19px;
+    }
+    .principal .opciones .dos img{
+        width: 16%;
+    }
+    .principal .opciones .tres{
+        font-size: 11px;
+    }
+    .principal .opciones p{
+        margin: 0;
+        font-size: 16px;
+    }
+    /* fila 1 */
+    .principal .fila1 h3{
+        margin: 2% 0;
+        color: white;
+        font-size: 27px;
+    }
+    .principal .fila1 .contieneimagenes{
+        display: flex;
+        overflow: scroll;
+        gap: 10px;
+    }
+    .principal .fila1 .contieneimagenes img{
+        width: 33%;
+        height: 325px;
+    }
+    .principal .fila2 h3{
+        margin: 2% 0;
+        color: white;
+        font-size: 21px;
+    }
+    .principal .fila2 .contieneimagenes{
+        display: flex;
+        overflow: scroll;
+        gap: 10px;
+    }
+    .principal .fila2 .contieneimagenes img{
+        width: 33%;
+        height: 325px;
+    }
+    .principal .fila3 h3{
+        margin: 2% 0;
+        color: white;
+        font-size: 25px;
+    }
+    .principal .fila3 .contieneimagenes{
+        display: flex;
+        overflow: scroll;
+        gap: 10px;
+    }
+    .principal .fila3 .contieneimagenes img{
+        width: 43%;
+        height: 570px;
+    }
+    .principal .fila4 h3{
+        margin: 2% 0;
+        color: white;
+        font-size: 14px;
+    }
+    .principal .fila4 .tendencias{
+        display: flex;
+        overflow: scroll;
+        gap: 10px;
+    }
+    .principal .fila4 .tendencias img{
+        width: 46%;
+        height: 299px;
+    }
+    .ocupar{
+        padding: 7.6% 0;
+        background: black;
+    }
+}
+@media (min-width:700px) and (max-width: 767.98px){
+    .principal .iconos{
+        display: flex;
+        position: fixed;
+        bottom: 0%;
+        background: black;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        color: white;
+        padding: 4% 0;
+        z-index: 100;
+    }
+    .principal .iconos p{
+        margin: 0;
+        font-size: 13px;
+    }
+    .principal .portada .parte1{
+        position: absolute;
+        display: flex;
+        top: 8%;
+        left: 4%;
+        right: 4%;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .principal .portada .parte1 > div{
+        width: 6%;
+    }
+    .principal .portada .parte2{
+        display: flex;
+        position: absolute;
+        top: 15%;
+        width: 100%;
+        justify-content: center;
+    }
+    .principal .portada .parte2 ul{
+        list-style: none;
+        display: flex;
+        color: white;
+        gap: 47px;
+        font-size: 25px;
+        padding: 0;
+    }
+    .principal .portada .parte2 li select{
+        background: transparent;
+        border: 0;
+        color: white;
+        font-size: 25px;
+    }
+    .principal .portada .parte2 li select option{
+        background: red;
+    }
+    .principal .portada .parte3{
+        position: absolute;
+        width: 100%;
+        top: 90%;
+        text-align: center;
+        color: white;
+        font-size: 26px;
+    }
+    /* opciones */
+    .principal .opciones{
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        gap: 25px;
+        align-items: center;
+        text-align: center;
+    }
+    .principal .opciones .uno{
+        font-size: 30px;
+    }
+    .principal .opciones .uno p{
+        font-size: 12px;
+    }
+    .principal .opciones .dos{
+        border-radius: 3px;
+        background: white;
+        color: black;
+        padding: 1% 4%;
+        font-size: 19px;
+    }
+    .principal .opciones .dos img{
+        width: 16%;
+    }
+    .principal .opciones .tres{
+        font-size: 11px;
+    }
+    .principal .opciones p{
+        margin: 0;
+        font-size: 16px;
+    }
+    /* fila 1 */
+    .principal .fila1 h3{
+        margin: 2% 0;
+        color: white;
+        font-size: 27px;
+    }
+    .principal .fila1 .contieneimagenes{
+        display: flex;
+        overflow: scroll;
+        gap: 10px;
+    }
+    .principal .fila1 .contieneimagenes img{
+        width: 33%;
+        height: 325px;
+    }
+    .principal .fila2 h3{
+        margin: 2% 0;
+        color: white;
+        font-size: 21px;
+    }
+    .principal .fila2 .contieneimagenes{
+        display: flex;
+        overflow: scroll;
+        gap: 10px;
+    }
+    .principal .fila2 .contieneimagenes img{
+        width: 33%;
+        height: 325px;
+    }
+    .principal .fila3 h3{
+        margin: 2% 0;
+        color: white;
+        font-size: 25px;
+    }
+    .principal .fila3 .contieneimagenes{
+        display: flex;
+        overflow: scroll;
+        gap: 10px;
+    }
+    .principal .fila3 .contieneimagenes img{
+        width: 43%;
+        height: 570px;
+    }
+    .principal .fila4 h3{
+        margin: 2% 0;
+        color: white;
+        font-size: 21px;
+    }
+    .principal .fila4 .tendencias{
+        display: flex;
+        overflow: scroll;
+        gap: 10px;
+    }
+    .principal .fila4 .tendencias img{
+        width: 46%;
+        height: 299px;
+    }
+    .ocupar{
+        padding: 7.6% 0;
+        background: black;
+    }
+}
+@media (min-width:768px) {
+    .principal{
+        display: none;
+    }
+}

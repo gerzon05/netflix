@@ -1,0 +1,400 @@
+@media (max-width:768px) {
+    body{
+        margin: 0;
+        background-color: black;
+    }
+    
+    /* Intro */
+    .intro{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        transform: translateY(-100vh);
+        animation: intro;
+        z-index: 100;
+        background: black;
+        animation-duration: 4s;
+    }
+    @keyframes intro {
+        0%{transform: translateY(-100);}
+        25%{transform: translateY(0);}
+        50%{transform: translateY(0);}
+        75%{transform: translateY(0);}
+        100%{transform: translateY(-100vh);}
+    }
+    .intro > div {
+        position: absolute;
+        width: 45%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        overflow: hidden;
+    }.intro div img{
+        width: 100%;
+        animation: intro1;
+        animation-duration: 7s;
+    }
+    
+    @keyframes intro1 {
+        0%{transform: translatex(200vh);}
+        25%{transform: translatex(0);}
+        50%{transform: translatex(0);}
+        75%{transform: translatex(0);}
+        100%{transform: translatex(0);}
+    }
+    *{
+        font-family: 'Poppins', sans-serif;
+    }
+    .principal{
+        color: white;
+    }
+    .principal .contenido1{
+        padding: 5% 18%;
+        text-align: center;
+        display: grid;
+        gap: 12px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: black;
+        animation-name: focus;
+        animation-duration: 5s;
+        animation-timing-function: cubic-bezier(0.98, 0.53, 1, 1);
+    }
+    @keyframes focus {
+        0% {
+          -webkit-filter: blur(12px);
+                  filter: blur(12px);
+          opacity: 0;
+        }
+        100% {
+          -webkit-filter: blur(0px);
+                  filter: blur(0px);
+          opacity: 1;
+        }
+      }
+    .principal .contenido1 h1{
+        margin: 0;
+    }
+    .principal .contenido1 .uno img{
+        width: 100%;
+    }
+    .principal .contenido1 .uno p{
+        font-size: 10px;
+        color: red;
+    }
+    .principal .contenido1 form{
+        display: grid;
+        gap: 5px;
+    }
+    .principal .contenido1 form .decir p{
+        margin: 0;
+    }
+    .principal .contenido1 form input{
+        font-size: 10px;
+        padding: 2%;
+        height: 25px;
+        border-radius: 7px;
+        border: 0;
+    }
+    .principal .contenido1 form #enviar{
+        height: 40px;
+        font-size: 14px;
+        background: red;
+        border-radius: 0;
+        color: white;
+        border: 0;
+        margin-top: 9%;
+    }
+    .principal .contenido1 form a{
+        font-size: 10px;
+        color: red;
+    }
+    .principal .contenido1 .tres{
+        font-size: 11px;
+    }
+    .principal .contenido1 .tres span{
+        font-size: 11px;
+        color: red;
+    }
+
+    .principal .validar{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: black;
+        transition: opacity .6s .9s;
+        --transition: transform .8s;
+    }
+    .principal .validar1{
+        display: none;
+    }
+
+    .principal .validar form{
+        display: grid;
+        gap: 8px;
+        width: 100%;
+        max-width: 80%;
+    }
+    .principal .validar .form{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        transition: var(--transition);
+        animation-name: form1;
+        justify-content: center;
+        animation-duration: 3s;
+    }
+    @keyframes form1 {
+        0% {
+          -webkit-transform: translateY(-500px);
+                  transform: translateY(-500px);
+          -webkit-animation-timing-function: ease-in;
+                  animation-timing-function: ease-in;
+          opacity: 0;
+        }
+        38% {
+          -webkit-transform: translateY(0);
+                  transform: translateY(0);
+          -webkit-animation-timing-function: ease-out;
+                  animation-timing-function: ease-out;
+          opacity: 1;
+        }
+        55% {
+          -webkit-transform: translateY(-65px);
+                  transform: translateY(-65px);
+          -webkit-animation-timing-function: ease-in;
+                  animation-timing-function: ease-in;
+        }
+        72% {
+          -webkit-transform: translateY(0);
+                  transform: translateY(0);
+          -webkit-animation-timing-function: ease-out;
+                  animation-timing-function: ease-out;
+        }
+        81% {
+          -webkit-transform: translateY(-28px);
+                  transform: translateY(-28px);
+          -webkit-animation-timing-function: ease-in;
+                  animation-timing-function: ease-in;
+        }
+        90% {
+          -webkit-transform: translateY(0);
+                  transform: translateY(0);
+          -webkit-animation-timing-function: ease-out;
+                  animation-timing-function: ease-out;
+        }
+        95% {
+          -webkit-transform: translateY(-8px);
+                  transform: translateY(-8px);
+          -webkit-animation-timing-function: ease-in;
+                  animation-timing-function: ease-in;
+        }
+        100% {
+          -webkit-transform: translateY(0);
+                  transform: translateY(0);
+          -webkit-animation-timing-function: ease-out;
+                  animation-timing-function: ease-out;
+        }
+      }
+      
+    .principal .validar form input{
+        border: 0;
+        width: 100%;
+        padding: 2% 0;
+        border-radius: 5px;
+    }
+    .principal .validar form p{
+        text-align: center;
+        font-size: 14px;
+    }
+    .principal .validar form button{
+        width: 100%;
+        background: red;
+        font-size: 18px;
+        text-decoration: none;
+        border: 0;
+        color: white;
+        padding: 2% 0;
+        border-radius: 7px;
+        text-align: center;
+    }
+    .principal .validar form button a{
+        color: white;
+        text-decoration: none;
+    }
+}
+@media (max-width: 349.98px){
+    /* Intro */
+    .principal .contenido1{
+        gap: 12px;
+        padding: 10% 15%;
+    }
+    .principal .contenido1 h1{
+        margin: 0;
+    }
+    .principal .contenido1 .uno p{
+        font-size: 10px;
+        color: red;
+    }
+    .principal .contenido1 form{
+        gap: 5px;
+    }
+    .principal .contenido1 form input{
+        font-size: 10px;
+        padding: 2%;
+        height: 25px;
+        border-radius: 7px;
+    }
+    .principal .contenido1 form #enviar{
+        height: 40px;
+        font-size: 14px;
+        margin-top: 5%;
+        border: 0;
+    }
+    .principal .contenido1 form a{
+        font-size: 10px;
+        color: red;
+    }
+    .principal .contenido1 .tres{
+        font-size: 11px;
+    }
+    .principal .contenido1 .tres span{
+        font-size: 11px;
+        color: red;
+    }
+}
+@media (min-width:350px) and (max-width: 449.98px){
+    /* Intro */
+    .principal .contenido1{
+        gap: 0px;
+        padding: 8% 24%;
+    }
+    .principal .contenido1 h1{
+        margin: 0;
+    }
+    .principal .contenido1 .uno p{
+        font-size: 10px;
+        color: red;
+    }
+    .principal .contenido1 form{
+        gap: 5px;
+    }
+    .principal .contenido1 form input{
+        font-size: 10px;
+        padding: 2%;
+        height: 25px;
+        border-radius: 7px;
+    }
+    .principal .contenido1 form #enviar{
+        height: 40px;
+        font-size: 14px;
+        margin-top: 20%;
+    }
+    .principal .contenido1 form a{
+        font-size: 10px;
+        color: red;
+    }
+    .principal .contenido1 .tres{
+        font-size: 10px;
+    }
+    .principal .contenido1 .tres span{
+        font-size: 11px;
+        color: red;
+    }
+}
+@media (min-width:450px) and (max-width: 575.98px) {
+        /* Intro */
+    .principal .contenido1{
+        gap: 0px;
+        padding: 6% 28%;
+    }
+    .principal .contenido1 h1{
+        margin: 0;
+    }
+    .principal .contenido1 .uno p{
+        font-size: 10px;
+        color: red;
+    }
+    .principal .contenido1 form{
+        gap: 5px;
+    }
+    .principal .contenido1 form input{
+        font-size: 10px;
+        padding: 2%;
+        height: 25px;
+        border-radius: 7px;
+    }
+    .principal .contenido1 form #enviar{
+        height: 40px;
+        font-size: 14px;
+        margin-top: 20%;
+    }
+    .principal .contenido1 form a{
+        font-size: 10px;
+        color: red;
+    }
+    .principal .contenido1 .tres{
+        font-size: 10px;
+    }
+    .principal .contenido1 .tres span{
+        font-size: 11px;
+        color: red;
+    }
+}
+@media (min-width: 576px) and (max-width: 768px){
+        /* Intro */
+        .principal .contenido1{
+            gap: 0px;
+            padding: 6% 34%;
+        }
+        .principal .contenido1 h1{
+            margin: 0;
+        }
+        .principal .contenido1 .uno p{
+            font-size: 10px;
+            color: red;
+        }
+        .principal .contenido1 form{
+            gap: 5px;
+        }
+        .principal .contenido1 form input{
+            font-size: 10px;
+            padding: 2%;
+            height: 25px;
+            border-radius: 7px;
+        }
+        .principal .contenido1 form #enviar{
+            height: 40px;
+            font-size: 14px;
+            margin-top: 20%;
+            border: 0;
+        }
+        .principal .contenido1 form a{
+            font-size: 10px;
+            color: red;
+        }
+        .principal .contenido1 .tres{
+            font-size: 10px;
+        }
+        .principal .contenido1 .tres span{
+            font-size: 11px;
+            color: red;
+        }
+}
+@media (min-width:769px) {
+    .principal{
+        display: none;
+    }
+}

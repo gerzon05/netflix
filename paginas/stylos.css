@@ -1,0 +1,340 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.principal{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+}
+.principal .text p{
+    width: 90%;
+    text-align: center;
+}
+@media (max-width: 349.98px){.principal .text{
+    letter-spacing: 1px;
+    position: absolute;
+    font-size: 10px;
+    top: 0;
+    right: 0;
+    display: flex;
+    left: 0;
+    align-items: center;
+    color: white;
+    bottom: 92%;
+    justify-content: space-between;
+    padding: 0 4% 0 10%;
+}
+.principal .contenido{
+    padding: 15%;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+.principal .contenido > div{
+    width: 40%;
+}
+.principal .contenido div img{
+    width: 100%;
+    border-radius: 5px;
+}
+.principal .contenido div p{
+    color: white;
+    text-align: center;
+    margin: 0;
+}}
+@media (min-width:350px) and (max-width: 399.98px){
+.principal .text{
+    letter-spacing: 1px;
+    position: absolute;
+    font-size: 12px;
+    top: 0;
+    right: 0;
+    display: flex;
+    left: 0;
+    align-items: center;
+    color: white;
+    bottom: 92%;
+    justify-content: space-between;
+    padding: 0 4% 0 10%;
+}
+.principal .contenido{
+    padding: 7% 20%;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+.principal .contenido > div{
+    width: 40%;
+}
+.principal .contenido div img{
+    width: 100%;
+    border-radius: 5px;
+}
+.principal .contenido div p{
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+}
+@media (min-width:400px) and (max-width: 549.98px) {
+.principal .text{
+    letter-spacing: 1px;
+    position: absolute;
+    font-size: 18px;
+    top: 0;
+    right: 0;
+    display: flex;
+    left: 0;
+    align-items: center;
+    color: white;
+    bottom: 92%;
+    justify-content: center;
+    padding: 0 4% 0 10%;
+}
+.principal .contenido{
+    padding: 4% 20%;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+.principal .contenido > div{
+    width: 36%;
+}
+.principal .contenido div img{
+    width: 100%;
+    border-radius: 5px;
+}
+.principal .contenido div p{
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+}
+@media (min-width: 500px) and (max-width: 549.98px){
+    .principal .text{
+    letter-spacing: 1px;
+    position: absolute;
+    font-size: 21px;
+    top: 0;
+    right: 0;
+    display: flex;
+    left: 0;
+    align-items: center;
+    color: white;
+    bottom: 92%;
+    justify-content: center;
+    padding: 0 4% 0 10%;
+}
+.principal .contenido{
+    padding: 4% 23%;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+.principal .contenido > div{
+    width: 35%;
+}
+.principal .contenido div img{
+    width: 100%;
+    border-radius: 5px;
+}
+.principal .contenido div p{
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+}
+@media (min-width: 550px) and (max-width: 599.98px){
+    .principal .text{
+    letter-spacing: 1px;
+    position: absolute;
+    font-size: 21px;
+    top: 0;
+    right: 0;
+    display: flex;
+    left: 0;
+    align-items: center;
+    color: white;
+    bottom: 92%;
+    justify-content: center;
+    padding: 0 4% 0 10%;
+}
+.principal .contenido{
+    padding: 4% 27%;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+.principal .contenido > div{
+    width: 35%;
+}
+.principal .contenido div img{
+    width: 100%;
+    border-radius: 5px;
+}
+.principal .contenido div p{
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+}
+@media (min-width: 600px) and (max-width: 649.98px){
+    .principal .text{
+    letter-spacing: 1px;
+    position: absolute;
+    font-size: 21px;
+    top: 0;
+    right: 0;
+    display: flex;
+    left: 0;
+    align-items: center;
+    color: white;
+    bottom: 92%;
+    justify-content: center;
+    padding: 0 4% 0 10%;
+}
+.principal .contenido{
+    padding: 4% 24%;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+.principal .contenido > div{
+    width: 30%;
+}
+.principal .contenido div img{
+    width: 100%;
+    border-radius: 5px;
+}
+.principal .contenido div p{
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+}
+@media (min-width: 650px) and (max-width: 699.98px){
+    .principal .text{
+    letter-spacing: 1px;
+    position: absolute;
+    font-size: 21px;
+    top: 0;
+    right: 0;
+    display: flex;
+    left: 0;
+    align-items: center;
+    color: white;
+    bottom: 92%;
+    justify-content: center;
+    padding: 0 4% 0 10%;
+}
+.principal .contenido{
+    padding: 4% 23%;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+.principal .contenido > div{
+    width: 29%;
+}
+.principal .contenido div img{
+    width: 100%;
+    border-radius: 5px;
+}
+.principal .contenido div p{
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+}
+@media (min-width: 700px) and (max-width: 767.98px){
+    .principal .text{
+    letter-spacing: 1px;
+    position: absolute;
+    font-size: 21px;
+    top: 0;
+    right: 0;
+    display: flex;
+    left: 0;
+    align-items: center;
+    color: white;
+    bottom: 92%;
+    justify-content: center;
+    padding: 0 4% 0 10%;
+}
+.principal .contenido{
+    padding: 1% 30%;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+.principal .contenido > div{
+    width: 36%;
+}
+.principal .contenido div img{
+    width: 100%;
+    border-radius: 5px;
+}
+.principal .contenido div p{
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+}
+
+@media (min-width:768px){
+    .principal{
+        display: none;
+    }
+}
