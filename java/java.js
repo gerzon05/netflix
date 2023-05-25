@@ -30,7 +30,7 @@ function validacion(){
   let email1 = document.querySelector("#email-1").value;
   let contraseña1 = document.querySelector("#contraseña1").value;
   if ((email1 == localStorage.getItem("email")) && (contraseña1 == localStorage.getItem("contraseña"))) {
-    document.querySelector("#login1").href = "paginas/index.html";
+    document.querySelector("#login").href = "paginas/index.html";
     // agrege una etique a y lo que hice fue a que cuando los campos estubieran correctos cambiar la ubicacion y me lleve a la pagina de las pantallas
   }else{
     document.querySelector(".incorrec").innerHTML += "<p class'usuari'>"+"usuario o contraseña incorrectos"+"</p>" 
