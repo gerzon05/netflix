@@ -14,6 +14,22 @@ body{
     width: 100%;
     height: 100%;
 }
+#video{
+    width: 90%;
+    display: none;
+}
+.principal .visible{
+    opacity: 1 !important;
+    transform: scale(1) translateX(0) !important;
+}
+.principal > .aparece1, .aparece2, .aparece3, .aparece4{
+    opacity: 0;
+    transition: 0.7s ease-in-out all;
+    transform: scale(.8);
+}
+.pop{
+    z-index: 10;
+}
 @media (max-width: 349.98px){
     .principal .iconos{
         display: flex;
@@ -177,8 +193,8 @@ body{
     }
     .pop .popcont{
         border-radius: 15px;
-        max-width: 80%;
-        position: relative;
+        width: 80%;
+        position: fixed;
         left: 50%;
         top: 50%;
         transform: translate(-50%,-50%);
@@ -376,7 +392,7 @@ body{
     }
     .pop .popcont{
         border-radius: 15px;
-        max-width: 80%;
+        width: 80%;
         position: relative;
         left: 50%;
         top: 50%;
@@ -578,8 +594,8 @@ body{
     }
     .pop .popcont{
         border-radius: 15px;
-        max-width: 80%;
-        position: relative;
+        width: 80%;
+        position: absolute;
         left: 50%;
         top: 50%;
         transform: translate(-50%,-50%);
@@ -780,7 +796,7 @@ body{
     }
     .pop .popcont{
         border-radius: 15px;
-        max-width: 80%;
+        width: 80%;
         position: relative;
         left: 50%;
         top: 50%;
@@ -983,7 +999,7 @@ body{
     }
     .pop .popcont{
         border-radius: 15px;
-        max-width: 80%;
+        width: 80%;
         position: relative;
         left: 50%;
         top: 50%;
@@ -1186,7 +1202,7 @@ body{
     }
     .pop .popcont{
         border-radius: 15px;
-        max-width: 80%;
+        width: 80%;
         position: relative;
         left: 50%;
         top: 50%;
@@ -1390,7 +1406,7 @@ body{
     }
     .pop .popcont{
         border-radius: 15px;
-        max-width: 80%;
+        width: 80%;
         position: relative;
         left: 50%;
         top: 50%;
@@ -1594,7 +1610,7 @@ body{
     }
     .pop .popcont{
         border-radius: 15px;
-        max-width: 80%;
+        width: 80%;
         position: relative;
         left: 50%;
         top: 50%;
@@ -1798,7 +1814,7 @@ body{
     }
     .pop .popcont{
         border-radius: 15px;
-        max-width: 80%;
+        width: 80%;
         position: relative;
         left: 50%;
         top: 50%;
